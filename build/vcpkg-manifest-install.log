@@ -1,0 +1,9 @@
+Detecting compiler hash for triplet arm64-osx...
+Compiler found: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+All requested packages are currently installed.
+Total install time: 292 ns
+The package zlib is compatible with built-in CMake targets:
+
+    find_package(ZLIB REQUIRED)
+    target_link_libraries(main PRIVATE ZLIB::ZLIB)
+

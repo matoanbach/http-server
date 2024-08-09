@@ -1,0 +1,3 @@
+/Users/bachmatoan/Documents/Projects/httpserver/codecrafters-http-server-cpp/build/CMakeFiles/server.dir
+/Users/bachmatoan/Documents/Projects/httpserver/codecrafters-http-server-cpp/build/CMakeFiles/edit_cache.dir
+/Users/bachmatoan/Documents/Projects/httpserver/codecrafters-http-server-cpp/build/CMakeFiles/rebuild_cache.dir
