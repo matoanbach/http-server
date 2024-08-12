@@ -1,6 +1,5 @@
-CMakeFiles/server.dir/src/server.cpp.o: \
-  /Users/bachmatoan/Documents/Projects/httpserver/codecrafters-http-server-cpp/src/server.cpp \
-  /Users/bachmatoan/Documents/Projects/httpserver/codecrafters-http-server-cpp/src/http.h \
+CMakeFiles/server.dir/src/test.cpp.o: \
+  /Users/bachmatoan/Documents/Projects/httpserver/codecrafters-http-server-cpp/src/test.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
