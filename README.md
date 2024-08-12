@@ -1,39 +1,29 @@
-[![progress-banner](https://backend.codecrafters.io/progress/http-server/83066bce-b801-4c44-bb65-54b1d5865e41)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
+# Basic HTTP Server in C++
 
-This is a starting point for C++ solutions to the
-["Build Your Own HTTP server" Challenge](https://app.codecrafters.io/courses/http-server/overview).
+## Overview
+Welcome to the "Build Your Own HTTP Server" project! This project is an educational journey into the world of HTTP, TCP/IP, and server development. You'll find a basic yet functional HTTP server implemented in C++ using CMake. This server is capable of handling simple GET and POST requests, serving static files, and managing multiple concurrent connections.
 
-[HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) is the
-protocol that powers the web. In this challenge, you'll build a HTTP/1.1 server
-that is capable of serving multiple clients.
+## Features
+- **URL Path Extraction**: Extracts and routes requests based on URL paths. Returns a 200 status for valid paths and 404 for invalid paths.
+- **Echo Endpoint**: Implements the `/echo/{str}` endpoint that returns the string provided by the client in the response body.
+- **User-Agent Header Reading**: Implements the `/user-agent` endpoint that reads and returns the User-Agent header sent by the client.
+- **File Serving**: Implements the `/files/{filename}` endpoint to serve static files and handles file creation via POST requests.
+- **Concurrent Connections**: Supports handling multiple concurrent client connections efficiently.
+- **Compression Handling**: Parses the `Accept-Encoding` header to determine if the response should be compressed (currently only supports `gzip`).
+- **Gzip Compression**: Future implementation planned for compressing responses with `gzip`.
 
-Along the way you'll learn about TCP servers,
-[HTTP request syntax](https://www.w3.org/Protocols/rfc2616/rfc2616-sec5.html),
-and more.
+## Getting Started
 
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to try the challenge.
+### Prerequisites
+- **C++11 or later**
+- **CMake** (version 3.10 or later)
+- **GCC/Clang** or any compatible C++ compiler
+- **Make** or **Ninja** build system
 
-# Passing the first stage
+### Installation
+Clone the repository and navigate to the project directory:
 
-The entry point for your HTTP server implementation is in `src/server.cpp`.
-Study and uncomment the relevant code, and push your changes to pass the first
-stage:
-
-```sh
-git add .
-git commit -m "pass 1st stage" # any msg
-git push origin master
-```
-
-Time to move on to the next stage!
-
-# Stage 2 & beyond
-
-Note: This section is for stages 2 and beyond.
-
-1. Ensure you have `cmake` installed locally
-1. Run `./your_program.sh` to run your program, which is implemented in
-   `src/server.cpp`.
-1. Commit your changes and run `git push origin master` to submit your solution
-   to CodeCrafters. Test output will be streamed to your terminal.
+```bash
+git clone https://github.com/yourusername/http-server-cpp.git
+cd http-server-cpp
+./your_program
